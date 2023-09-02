@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #272727;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 4.9565rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.counter{
+    color: #F2ECD9;
+    font-family: Inter;
+    font-size: 4.9565rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.buttonOne{
+    width: 10.375rem;
+    height: 2.75rem;
+    background: #CF96AA;
+     border: none;
+     color: white;
+     font-family: Inter;
+    font-size: 1.15081rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.buttonTwo{
+    width: 10.375rem;
+    height: 2.75rem;
+    background: #F2ECD9;
+    border: none;
+    color: #272727;
+    font-family: Inter;
+    font-size: 1.15081rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.buttonThree{
+    width: 10.375rem;
+    height: 2.75rem;
+    background: #302C5F;
+    border: none;
+    color: white;
+    font-family: Inter;
+    font-size: 1.15081rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.all{
+    margin-top: 7.38rem;
+}
