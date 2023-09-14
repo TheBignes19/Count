@@ -1,19 +1,21 @@
-const countElement = document.querySelector('.counter')
+const result = document.querySelector(`.result`)
+
 let count = 0
 
 function add() {
-count++
-countElement.innerHTML = count
+    count++
+    result.innerHTML = count
+}
+
+function reset() {
+    count = 0
+    result.innerHTML = count
 }
 
 function less() {
     count--
-    if (count < 0) {
-      return  reset()
+    if (count < 0){
+        return reset()
     }
-    countElement.innerHTML = count
-}
-function reset() {
-    count = 0
-    countElement.innerHTML = count
+    result.innerHTML = count
 }
