@@ -3,27 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="styles/count.css">
     <title>Count</title>
 </head>
 <body>
-    <div class="all">
-    <div class="One">
-        <h1 class="h1">Count</h1>
-
-        <div> <span class="counter">3</span></div>
-
-        <div>
-            <button onclick="reset()" class="buttonOne">Resetar</button>
-            <button onclick="less()" class="buttonTwo">Decrementar</button>
-            <button onclick="add()" class="buttonThree">Incrementar</button>
+    <div class="container">
+        <span>Count</span>
+        <div class="result">
+            0
+        </div>
+        <div class="buttom">
+            <button class="Decrementar" onclick="less()">Decrementar</button>
+            <button class="Resetar" onclick="reset()">Resetar</button>
+            <button class="Incrementar" onclick="add()">Incrementar</button>
         </div>
     </div>
-</div>
-
-    <script src="/main.js"></script>
+    <script src="/count.js"></script>
 </body>
 </html>
